@@ -41,7 +41,7 @@
                             <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                                 <li><a href="#nataye-section" class="nav-link">Nataye</a></li>
                                 <li><a href="#natoye-section" class="nav-link">Natoraguye</a></li>
-                                <li><a href="#tuvugishe-section" class="nav-link">Tuvugishe</a></li>
+                                <li><a href="all.html" class="nav-link">Ingero</a></li>
 
 
                             </ul>
@@ -52,7 +52,7 @@
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul
                                 class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                                <li data-aos="fade-up" data-aos-delay="300"><a href="#contact-section"
+                                <li data-aos="fade-up" data-aos-delay="300"><a href="#tuvugishe-section"
                                         class="btn btn-warning py-2 px-3 btn-pill"><span
                                             style="color: #d9edf7">Tuvugishe</span></a></li>
                             </ul>
@@ -141,7 +141,7 @@
                                     <div class="row">
                                         <div class="col-md-6 form-group">
                                             <select required="true" class=" form-control" name="doc_name" id="options">
-                                                <option value="">Ubwoko bw'Icyangombwa</option>
+                                                <option value="">Wataye Iki ?</option>
                                                 <option value="Icyangombwa cy'ubutaka">Icyangombwa cy'ubutaka</option>
                                                 <option value="Icyangombwa cyo kubaka">Icyangombwa cyo kubaka</option>
                                                 <option value="Icyangombwa cy'ururugendo(Passport)">Icyangombwa
@@ -206,6 +206,106 @@
             <div class="container">
 
                 <div class="row justify-content-center">
+
+                     <div class="d-lg-none col-lg-6">
+
+
+                        <h2 class="section-title mb-3">Nataye</h2>
+                        <p class="mb-5">Injizamo ibisabwa maze tuzakumenyesha byabonetse </p>
+                        <form class="form-box" method="post" action="/api/handle_lost/" data-aos="fade"
+                        enctype="multipart/form-data">
+                        
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="names" type="text" class="form-control"
+                                        placeholder="Amazina Y'uwataye">
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div>
+                                    <input name="phone" type="number" class="form-control"
+                                        placeholder="telefone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="district" type="text" class="form-control"
+                                        placeholder="Akarere">
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="sector" type="text" class="form-control"
+                                        placeholder="Umurenge">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="cell" type="text" class="form-control"
+                                        placeholder="Akagari">
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="umudugudu" type="text" class="form-control"
+                                        placeholder="Umudugudu">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <select required="true" class=" form-control" name="doc_name" id="options">
+                                    <option value="">Wataye Iki ?</option>
+                                    <option value="Icyangombwa cy'ubutaka">Icyangombwa cy'ubutaka</option>
+                                    <option value="Icyangombwa cyo kubaka">Icyangombwa cyo kubaka</option>
+                                    <option value="Icyangombwa cy'ururugendo(Passport)">Icyangombwa
+                                        cy'ururugendo(Passport)</option>
+                                    <option value="Icyangombwa cy'ubwishingizi">Icyangombwa cy'ubwishingizi
+                                    </option>
+                                    <option value="Icyangombwa cy'umunyeshuri">Icyangombwa cy'umunyeshuri
+                                    </option>
+                                    <option value="Ikarita"> Ikarita</option>
+                                    <option value="Icyangombwa cy'akazi">Icyangombwa cy'akazi</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6 form-group">
+                                <div>
+                                    <input name="item_id" type="text" class="form-control"
+                                        placeholder="Nomero y'icyangobwa">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="id_number" type="text" class="form-control"
+                                        placeholder="Nomero y'indangamuntu">
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="mb-3 mb-lg-0">
+                                    <input name="email" type="email" class="form-control"
+                                        placeholder="Email">
+                                </div>
+                            </div>
+
+                        </div>
+                        <input type="submit" class="btn btn-warning py-2 px-5 btn-block btn-pill"
+                            value="Ohereza">
+                    </form>
+                    </div>
+
                     <div class="col-lg-6">
 
 
@@ -248,7 +348,7 @@
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <select required="true" class=" form-control" name="doc_name" id="options">
-                                        <option value="">Hitamo ubwoko bw'Icyangombwa</option>
+                                        <option value="">Watoye Iki ?</option>
                                         <option value="Icyangombwa cy'ubutaka">Icyangombwa cy'ubutaka</option>
                                         <option value="Icyangombwa cyo kubaka">Icyangombwa cyo kubaka</option>
                                         <option value="Icyangombwa cy'ururugendo(Passport)">Icyangombwa
@@ -296,70 +396,7 @@
                         </form>
                     </div>
 
-                    <div class="d-lg-none col-lg-6">
-
-
-                        <h2 class="section-title mb-3">Nataye</h2>
-                        <p class="mb-5">Injizamo ibisabwa maze tuzakumenyesha byabonetse </p>
-
-                        <form method="post" action="/api/handle_lost/" data-aos="fade" enctype="multipart/form-data">
-
-
-                            <div class="form-group row">
-                                <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input name="names" type="text" class="form-control" placeholder="Amazina">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input name="district" type="text" class="form-control" placeholder="Akarere">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input name="sector" type="text" class="form-control" placeholder="Umurenge">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input name="cell" type="text" class="form-control" placeholder="Akagari">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input name="umudugudu" type="text" class="form-control" placeholder="Umudugudu">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input name="doc_name" type="text" class="form-control"
-                                        placeholder="amazina y'icyangobwa">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <div class="col-md-8">
-                                    <input name="item_id" type="text" class="form-control"
-                                        placeholder="Nomero y'icyangobwa">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <div class="col-md-8">
-                                    <input name="phone" type="number" class="form-control" placeholder="telefone">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <div class="col-md-6">
-
-                                    <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
-                                        value="Ahoreza">
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
+                   
 
                     <div class="col-lg-6" id="tuvugishe-section">
 
