@@ -7962,9 +7962,7 @@ h1, h2, h3, h4, h5,
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
   .img-absolute img {
-    max-width: 600px;
-    -webkit-box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4); }
+    max-width: 600px; }
     @media (max-width: 991.98px) {
       .img-absolute img {
         max-width: 100%; } }
@@ -7977,7 +7975,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #343a40;
+    background: rgba(0, 0, 0, 0.322);
     opacity: .9;
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
