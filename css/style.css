@@ -7938,6 +7938,22 @@ h1, h2, h3, h4, h5,
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.1rem; }
 
+.myintro-section {
+  position: relative; }
+  .myintro-section, .myintro-section .container > .row {
+    height: 50vh; }
+  .myintro-section.single-cover, .myintro-section.single-cover .container > .row {
+    height: 50vh;
+    min-height: 400px; }
+  .myintro-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem; }
+  .myintro-section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem; }
+
 .img-absolute {
   position: absolute;
   right: 10%;
