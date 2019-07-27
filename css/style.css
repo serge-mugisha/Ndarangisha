@@ -8453,3 +8453,13 @@ h1, h2, h3, h4, h5,
 .w3-card:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.mylink {
+  display: inline-block; }
+  .mylink > a {
+    padding: 5px 20px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none !important; }
+    .mylink > a:hover {
+      color: #fff; }
